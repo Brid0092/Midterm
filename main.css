@@ -1,11 +1,26 @@
 
 html {
-   border-right: 250px solid #aad4cf;
-   border-left: 250px solid #aad4cf;
+   border-right: 256px solid #aad4cf;
+   border-left: 256px solid #aad4cf;
 }
       
 body {
     background-color: #D4E9E7;
     background-image: url("images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color:white;
+    text-align:center;
+    padding-top: 175px;
+    
+}
+
+#firstphoto {
+    width: 250px;
+    height:250px;
 }
