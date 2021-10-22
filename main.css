@@ -12,15 +12,18 @@ body {
 }
 
 .title {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     color:white;
     text-align:center;
-    padding-top: 175px;
+    padding-top: 155px;
     
 }
 
 #firstphoto {
+    float:left;
+    margin: 0px 10px 0px 10px;
     width: 250px;
     height:250px;
+    
 }
