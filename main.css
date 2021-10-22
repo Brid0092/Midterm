@@ -21,9 +21,19 @@ body {
 }
 
 #firstphoto {
+    padding-top: 175px;
     float:left;
     margin: 0px 10px 0px 10px;
     width: 250px;
     height:250px;
-    
+}
+
+article {
+    position:relative;
+    top: 120px;
+
+}
+
+h2 {
+    text-align: left;
 }
