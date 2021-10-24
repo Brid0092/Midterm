@@ -21,8 +21,10 @@ body {
 }
 
 #firstphoto {
-    padding-top: 175px;
-    float:left;
+    position:relative;
+    top: 50px;
+    left: -10px;
+    float: left;
     margin: 0px 10px 0px 10px;
     width: 250px;
     height:250px;
@@ -30,41 +32,47 @@ body {
 
 article {
     position:relative;
-    top: 120px;
-
+    top: 50px;
+    text-align: left;
+    font-size: 17.5px;
 }
 
-h2 {
-    text-align: left;
+.header {
+    position:absolute;
+    font-size:2.4em;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    top: 380px;
 }
 
 .middle {
     border-right-style:solid;
     border-left-style: solid;
     text-decoration: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     color:black;
-    
 }
 
 .menu {
-   padding-top: 59px;
+   padding-top: 60px;
    display:flex;
    justify-content: space-between;
-   width: 850px;
+   width: 800px;
    text-decoration: none;
-   font-size: 1.2em;
-   
+   font-size: 1.8em;
+   padding-left: 90px;
+   font-family:'Arial Narrow', Arial, sans-serif; 
 }
 
 .home {
     text-decoration:none;
     color:black;
+    padding-left:20px;
+    text-align:center;
 }
 
 .contact {
     text-decoration: none;
     color:black;
-    
+    text-align:center;
 }
