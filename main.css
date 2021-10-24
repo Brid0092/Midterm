@@ -91,12 +91,31 @@ h3 {
 
 }
 
+h4 {
+    position:absolute;
+    top:890px;
+    font-size:1.8em;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+
 #forms {
     position:absolute;
-    top: 900px;
+    top: 970px;
+    border: 1px solid;
+    padding: 10px 10px 10px 5px;
 }
 
 .radioButton {
     display:inline-block;
+}
+
+.button {
+    border: 1px solid;
+    color:black;
+    background-color:#D4E9E7;
+    padding:8px 9px;
+    display: inline-block;
+    margin:8px 4px;
+    font-size:0.5em;
 
 }
