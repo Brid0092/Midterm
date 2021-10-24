@@ -37,3 +37,34 @@ article {
 h2 {
     text-align: left;
 }
+
+.middle {
+    border-right-style:solid;
+    border-left-style: solid;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:black;
+    
+}
+
+.menu {
+   padding-top: 59px;
+   display:flex;
+   justify-content: space-between;
+   width: 850px;
+   text-decoration: none;
+   font-size: 1.2em;
+   
+}
+
+.home {
+    text-decoration:none;
+    color:black;
+}
+
+.contact {
+    text-decoration: none;
+    color:black;
+    
+}
