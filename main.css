@@ -76,3 +76,27 @@ article {
     color:black;
     text-align:center;
 }
+
+h3 {
+    position:absolute;
+    top: 740px;
+    font-size:1.8em;
+    font-family:'Arial Narrow', Arial, sans-serif;
+
+}
+
+.facts {
+    position:absolute;
+    top: 800px;
+
+}
+
+#forms {
+    position:absolute;
+    top: 900px;
+}
+
+.radioButton {
+    display:inline-block;
+
+}
