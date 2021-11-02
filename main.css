@@ -1,118 +1,136 @@
-
 html {
-   border-right: 256px solid #aad4cf;
-   border-left: 256px solid #aad4cf;
-   height: 1250px;
-}
-      
-body {
-    background-color: #D4E9E7;
-    background-image: url("images/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-}
+    border-right: 256px solid #aad4cf;
+    border-left: 256px solid #aad4cf;
+    height: 1350px;
+ }
 
-.title {
-    font-family:'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
-    color:white;
-    text-align:center;
-    padding-top: 155px;
-}
-
-#firstphoto {
-    position:relative;
-    top: 50px;
-    left: -10px;
-    float: left;
-    margin: 0px 10px 0px 10px;
-    width: 250px;
-    height:250px;
-}
-
-article {
-    position:relative;
-    top: 50px;
-    text-align: left;
-    font-size: 17.5px;
-}
-
-.header {
-    position:absolute;
-    font-size:2.4em;
-    font-family:'Arial Narrow', Arial, sans-serif;
-    top: 380px;
-}
-
-.middle {
-    border-right-style:solid;
-    border-left-style: solid;
+ .container {
+    margin: 0 auto;
+    width: 1007.2px !important;
+ }
+       
+ body {
+     background-color: #D4E9E7;
+     background-image: url("images/lone-starfish-wide.jpg");
+     background-repeat: no-repeat;
+     background-position: center top;
+ }
+ 
+ .title {
+     font-family:'Arial Narrow', Arial, sans-serif;
+     font-size: 1.5em;
+     color:white;
+     text-align:center;
+     padding-top: 155px;
+ }
+ 
+ #firstphoto {
+     position:relative;
+     top: 50px;
+     left: -10px;
+     float: left;
+     margin: 0px 10px 0px 10px;
+     width: 250px;
+     height:250px;
+ }
+ 
+ article {
+     position:relative;
+     top: 50px;
+     text-align: left;
+     font-size: 17.5px;
+ }
+ 
+ .header {
+     position:absolute;
+     font-size:2.4em;
+     font-family:'Arial Narrow', Arial, sans-serif;
+     top: 380px;
+ }
+ 
+ .middle {
+     border-right-style:solid;
+     border-left-style: solid;
+     text-decoration: none;
+     padding-left: 150px;
+     padding-right: 150px;
+     color:black;
+ }
+ 
+ .menu {
+    padding-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    width: 800px;
     text-decoration: none;
-    padding-left: 150px;
-    padding-right: 150px;
-    color:black;
-}
+    font-size: 1.8em;
+    padding-left: 90px;
+    font-family:'Arial Narrow', Arial, sans-serif; 
+    list-style: none;
+ }
+ 
+ .home {
+     text-decoration:none;
+     color:black;
+     padding-left:20px;
+     text-align:center;
+ }
+ 
+ .contact {
+     text-decoration: none;
+     color:black;
+     text-align:center;
+ }
+ 
+ h3 {
+     position:absolute;
+     top: 740px;
+     font-size:1.8em;
+     font-family:'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .facts {
+     position:absolute;
+     top: 800px;
+ }
+ 
+ h4 {
+     position:absolute;
+     top:890px;
+     font-size:1.8em;
+     font-family:'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ #forms {
+     position:absolute;
+     top: 970px;
+     border: 1px solid;
+     padding: 10px 10px 10px 5px;
+ }
+ 
+ .radioButton {
+     display:inline-block;
+ }
+ 
+ .button {
+     border: 1px solid;
+     color:black;
+     background-color:#D4E9E7;
+     padding:8px 9px;
+     display: inline-block;
+     margin:8px 4px;
+     font-size:0.5em;
+ }
 
-.menu {
-   padding-top: 60px;
-   display:flex;
-   justify-content: space-between;
-   width: 800px;
-   text-decoration: none;
-   font-size: 1.8em;
-   padding-left: 90px;
-   font-family:'Arial Narrow', Arial, sans-serif; 
-}
+ footer {
+     text-align:right;
+     position: absolute;
+     top: 1300px;
+     padding-left: 850px;
+     
+ }
 
-.home {
-    text-decoration:none;
-    color:black;
-    padding-left:20px;
-    text-align:center;
-}
 
-.contact {
-    text-decoration: none;
-    color:black;
-    text-align:center;
-}
 
-h3 {
-    position:absolute;
-    top: 740px;
-    font-size:1.8em;
-    font-family:'Arial Narrow', Arial, sans-serif;
-}
 
-.facts {
-    position:absolute;
-    top: 800px;
-}
 
-h4 {
-    position:absolute;
-    top:890px;
-    font-size:1.8em;
-    font-family:'Arial Narrow', Arial, sans-serif;
-}
-
-#forms {
-    position:absolute;
-    top: 970px;
-    border: 1px solid;
-    padding: 10px 10px 10px 5px;
-}
-
-.radioButton {
-    display:inline-block;
-}
-
-.button {
-    border: 1px solid;
-    color:black;
-    background-color:#D4E9E7;
-    padding:8px 9px;
-    display: inline-block;
-    margin:8px 4px;
-    font-size:0.5em;
-}

@@ -8,18 +8,19 @@
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
      <div class="title">
        <h1>Lone Starfish</h1>
      </div>
      <nav>
          <ul class="menu" >
-             <a class="home" href="#">HOME</a> 
-             <a class="middle" href="#">STORY</a> 
-             <a class="contact" href="#">CONTACT</a> 
+             <li><a class="home" href="#">HOME</a></li> 
+             <li><a class="middle" href="#">STORY</a></li> 
+             <li><a class="contact" href="#">CONTACT</a></li> 
          </ul>
      </nav>
     <header>
-        <img id="firstphoto" src="images/lone-starfish.jpg"align="left"/>
+        <img id="firstphoto" src="images/lone-starfish.jpg" alt="startfish">
         
     </header>
          <h2 class="header"> Life of a Starfish</h2>
@@ -37,19 +38,19 @@
     <h4>Contact to learn more</h4>
     <section id="forms">
             <div>
-                <label for="Your Name">Your Name</label>
+                <label for="yourname">Your Name</label>
                 <br>
-                <input id="name" type="text" size="140">
+                <input id="yourname" type="text" size="140">
             </div>
             <div>
-                <label for="Email">Your Email</label>
+                <label for="email">Your Email</label>
                 <br>
-                <input id="mail" name="mail" size="140"></input>
+                <input id="email" name="email" size="140">
             </div>
             <div>
                 <label for="message">Your Message</label>
                 <br>
-                <textarea id="message" name="message" cols="129"></textarea>
+                <textarea id="message" name="message" rows="6" cols="129"></textarea>
             </div>
             <div>
                 <p>Would you like to visit the starfish?</p>
@@ -64,10 +65,13 @@
             </div>
             <div>
                 <input class="button" type="submit" value="SEND" >
-            </div>
-        </form> 
+            </div> 
       </section>
-    
+      <footer>
+        <p>© Lone Starfish</p>
+      </footer>
+      </div>
 
 </body>
 </html>
+
